@@ -1,4 +1,4 @@
-const sum=(a,b)=> a+b;
+/*const sum=(a,b)=> a+b;
 const mul=(a,b)=> a*b;
 const g=9.8;
 const PI =3.14;
@@ -9,4 +9,11 @@ let obj={
     g:g,
     PI:PI
 };
-module.exports=obj;
+module.exports=obj;*/
+
+//example for import vs require
+
+export const sum=(a,b)=> a+b; // to import first we have to export
+export const mul=(a,b)=> a*b;
+export const g=9.8;
+export const PI =3.14;
